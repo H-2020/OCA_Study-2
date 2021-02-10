@@ -5,7 +5,7 @@ public class CompareValues {
         int x = 0;
         while(x++ < 10){}
 
-        String message = x > 10 ? "Greater than" : false; // compile error
+        String message = x > 10 ? "Greater than" :  "false"; // false; compile error
 
         System.out.println(message + ", " + x);
     }
