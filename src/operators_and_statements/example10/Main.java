@@ -11,6 +11,12 @@ public class Main {
         list.add(3);
         list.remove(new Integer(60));
 
+        List<Integer> list2 = new ArrayList<>();
+        list.add(Integer.parseInt("6"));
+        list.add(Integer.valueOf("5"));
+        list.add(3);
+        list.add(null);
+
         for (Integer num:list
         ) {
             System.out.println(num);
