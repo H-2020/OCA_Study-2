@@ -12,6 +12,7 @@ public class Chicken implements HenHouse{
 
     @Override
     public List<Chicken> getChickens() {
-        return List.of(new Chicken());
+       return null;
+        // return List.of(new Chicken());
     }
 }
