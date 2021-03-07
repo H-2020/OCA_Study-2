@@ -21,6 +21,7 @@ public class Sub extends Base {
         Base sub2 = new Sub();
         System.out.println(sub2.i); // 10
         sub2.sayHello(); // Hello Sub
+
         sub2.sayBye(); // Bye Base
     }
 }
