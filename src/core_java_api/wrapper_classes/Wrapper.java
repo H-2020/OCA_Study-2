@@ -9,6 +9,9 @@ public class Wrapper {
         boolean bool = Boolean.parseBoolean("TrUe");
         Boolean Boolean = java.lang.Boolean.valueOf("TrUe");
 
+        boolean bool2 = Boolean.parseBoolean("fals");
+        System.out.println("line 13: " + bool2);
+
 
         float Float = java.lang.Float.parseFloat("1.4F");
         System.out.println(Float);
