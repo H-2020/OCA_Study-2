@@ -10,5 +10,8 @@ public class Example01 {
         System.out.println(str1 == str2); // false
         System.out.println(str1 == str3); // true
 
+        sb.delete(0, sb.length());
+        System.out.println(sb + " here ");
+
     }
 }
