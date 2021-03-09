@@ -13,4 +13,6 @@ public class Test5 {
             System.out.println(strs[idx]);
         }
     }
+
+    final static void hello(){};
 }
