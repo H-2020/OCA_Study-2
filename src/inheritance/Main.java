@@ -18,16 +18,20 @@ public class Main {
         /*Bird p = new Peacock();
         p.fly();*/
 
-        Bird b = new Peacock();
+        /*Bird b = new Peacock();
         Peacock p = (Peacock) b;
         p.fly();
-        p.dance();
+        p.dance();*/
 
         // CLASS CAST EXCEPTION
         /*Bird b = new Bird();
         Peacock p = (Peacock)b;
         p.fly();
         p.dance();*/
+
+        Peacock p = new Peacock();
+        p.dance();
+        p.fly();
 
 
     }
