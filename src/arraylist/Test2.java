@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Test2 {
     public static void main(String[] args) {
-     String[] arr = {"Hi", "How", "Are", "You"};
+     String[] arr = {"Hir", "How", "Are", "You"};
     List<String> arrList = new ArrayList<>(Arrays.asList(arr));
   //   List<String> arrList = Arrays.asList(arr);
 
@@ -16,7 +16,7 @@ public class Test2 {
         })){
             System.out.println(" removed");
         };
-
+        System.out.println();
         for (String str:arrList
         ) {
             System.out.println(str);
