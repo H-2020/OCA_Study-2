@@ -10,6 +10,7 @@ public class Test06 {
         try{
             while(true){ //infinite loop so Exception in thread “main” java.lang.OutOfMemoryError: Java heap space
                 myList.add("My string");
+
             }
         }catch (RuntimeException re){
             System.out.println("caught RuntimeException");

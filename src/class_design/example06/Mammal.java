@@ -6,6 +6,12 @@ public class Mammal {
     }
 
     public Mammal() {
+        System.out.println("3");
+    }
+
+    public static void main(String[] args) {
+        Mammal M=  new Mammal();
+        Mammal H=  new Hippopotamus();
 
     }
 }

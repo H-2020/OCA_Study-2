@@ -8,11 +8,11 @@ public class Test2 {
             int div = 0;
             ans = num/div;
         } catch (ArithmeticException ae){
-            ans = 0;
+            ans = 8;
         } catch (Exception e){
-        //    ans = 0;
+            ans = 3;
             System.out.println("Invalid calculation");
         }
-      //  System.out.println("Answer = " + ans); // COMPILE ERROR, var not initialized
+        System.out.println("Answer = " + ans); // COMPILE ERROR, var not initialized
     }
 }

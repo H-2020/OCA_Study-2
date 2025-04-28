@@ -10,6 +10,7 @@ public class Car extends Vehicle{
 
     public Car(String s, int speed, String trans) {
         super(s, speed);
-      //  this(trans);
+       //this(trans);
+        this.trans = trans;
     }
 }

@@ -11,11 +11,12 @@ public class Deer {
 
     private boolean hasHorns(){
         return false;
-    }
+    }//PRIVATE OLDUGU ICIN BU GECERLI OLUYOR.
 
     public static void main(String[] args) {
-        Deer deer = new Reindeer(5); // if deer was instance of ReinDeer --> DeerReindeer,true
-        System.out.println(","+deer.hasHorns()); // DeerReindeer,false
+
+        Deer deer2 = new Reindeer(5); // if deer was instance of ReinDeer --> DeerReindeer,true
+        System.out.println(","+deer2.hasHorns()); // DeerReindeer,false
     }
 
 }

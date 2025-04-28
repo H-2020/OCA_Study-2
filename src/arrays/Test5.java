@@ -5,7 +5,7 @@ public class Test5 {
         String[] strs = {"A", "B"};
         int idx = 0;
         for(String s : strs){
-            strs[idx].concat(" element " + idx);
+             strs[idx].concat(" element " + idx);
             idx++;
         }
         System.out.println(idx);
@@ -14,5 +14,5 @@ public class Test5 {
         }
     }
 
-    final static void hello(){};
+    //final static void hello(){};
 }

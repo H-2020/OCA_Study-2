@@ -12,7 +12,7 @@ public class Test5 {
         names.add("Bran");
 
         if (names.remove("Bran")){
-            names.remove("Jon");
+            names.remove("Rob");
         }
         System.out.println(names);
     }

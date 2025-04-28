@@ -21,8 +21,8 @@ public class C extends A{
         A b1 = new A();
         A b2 = new C();
 
-        b1 = (A) b2;
-        A b3 = (B) b2; // ClassCastException
+        b1 = b2;
+        A b3 =  b2; // ClassCastException
         b1.test();
         b3.test();
     }

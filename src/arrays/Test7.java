@@ -9,7 +9,7 @@ public class Test7 {
         ) {
             if(e != key){
                 continue;
-            //     count++;  UNREACHABLE VARIABLE
+               //  count++;  // UNREACHABLE VARIABLE
             }
         }
         System.out.println(count + "Found");

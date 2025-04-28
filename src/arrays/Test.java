@@ -14,14 +14,14 @@ public class Test {
         for (int[] a : arr){
             for (int i: a
             ) {
-                System.out.print(i + " ");
+                System.out.print(i + "  ");
             }
             System.out.println();
         }
 
         for (int[] a : arr){
             for (int i = 0; i < a.length; i++) {
-                System.out.print(a[i] + " ");
+                System.out.print(a[i] + "  ");
             }
             System.out.println();
         }

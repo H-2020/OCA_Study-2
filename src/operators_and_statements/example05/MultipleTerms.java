@@ -6,6 +6,8 @@ public class MultipleTerms {
         for (long y = 0, z = 4; x < 5 && y < 10 ; x++, y++) {
             System.out.print(y + " ");
         }
-        System.out.print(x);
+        //System.out.println(x);
+        x+=2*7;
+        System.out.println(x);
     }
 }

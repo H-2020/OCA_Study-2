@@ -1,6 +1,7 @@
 package overriding;
 
 public class Marsupial {
+    static int a=10;
     public boolean isBiped(){
         return false;
     }

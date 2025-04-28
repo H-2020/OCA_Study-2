@@ -5,7 +5,8 @@ public class Test01 {
         Short s1 = 200;
         Integer s2 = 400;
         long s3 = s1 + s2;
-      //  String s4 = (String) (s3 * s2);
+      // String s4 = (String) (s3 * s2);
+        System.out.println(s3);
     }
 
     public static long main(int number) {

@@ -3,8 +3,8 @@ package constractors;
 public class Car extends Vehicle{
     int y;
     Car(){
-        super();
-    //    this(10);  COMPILE ERROR
+        //super();
+      this(10);  //COMPILE ERROR
     }
 
     Car(int y){

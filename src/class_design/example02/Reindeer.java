@@ -6,7 +6,7 @@ class Reindeer extends Deer{
         System.out.print("Reindeer");
     }
 
-    public boolean hasHorns(){
-        return true;
-    }
+    //public boolean hasHorns(){
+   //     return true;
+  //  } OBUR klasta private oldugu icin yazsan da yazmasan da farketmez
 }

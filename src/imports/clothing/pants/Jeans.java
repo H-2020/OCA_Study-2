@@ -1,10 +1,12 @@
 package imports.clothing.pants;
 
-import imports.clothing.Shirt;
+//import imports.clothing.Shirt;
+
+import static imports.clothing.Shirt.getColor;
 
 public class Jeans {
     public void matchShirt(){
-        String color = Shirt.getColor();
+        String color = getColor();
         if(color.equals("Green")){
             System.out.println("fit");
         }

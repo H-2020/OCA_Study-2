@@ -6,6 +6,8 @@ abstract class Planet {
 }
 
 class Earth extends Planet{
-    protected void revolve(){}
+   protected void revolve(){
+
+    };
     protected void rotate(){};
 }
